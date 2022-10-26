@@ -1,0 +1,18 @@
+---
+title: "Exemplo03"
+author: "Luciano Bessegato"
+date: "18/Outubro/2022"
+output: 
+  html_document
+    
+---
+```{r }
+tab = data.frame(y = c(4, 6), 
+                 z = c(0, 7)
+                 )
+
+rownames(tab) = c("Dia 23", "Dia 24")
+colnames(tab) = c("Palestras", "Minicursos")
+knitr::kable(tab)
+
+```

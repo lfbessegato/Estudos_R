@@ -1,0 +1,32 @@
+---
+title: "Exemplo01"
+author: "Luciano Bessegato"
+date: "18/Outubro/2022"
+output: 
+  html_document: 
+    toc: yes
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+``` 
+
+## R Markdown
+
+Este é um documento R Markdown, Markdown é uma sintaxe de formatação de amostra para criar documentos HTML, PDF e MS Word. Para obter mais detalhes sobre como usar R Markdown
+veja <http://rmarkdown.rstudio.com>
+
+Quando você clicar no botão ""knit"!"" será gerado um documento que inclui tanto o conteúdo quanto a saída de qualquer fragmento de código R incorporado ao documento. Você pode incorporar um fragmento de código R como este:
+
+``` {r cars}
+summary(cars)
+```
+ 
+# Including Plots
+Você também pode incorporar gráficos, por exemplo
+
+``` {r pressure, echo = FALSE}
+plot(pressure)
+```
+
+Note Que o parâmetro echo = False foi adicionado ao trecho de código para evitar a impressão do código R que gerou o gráfico.
