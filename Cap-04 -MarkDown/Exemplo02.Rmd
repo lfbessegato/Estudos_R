@@ -4,7 +4,7 @@ author: "Luciano Bessegato"
 date: "18/Outubro/2022"
 output: 
   word_document: 
-    reference_docx: /home/luciano/github/Treinamentos-Ciencias_Dados/Utilizando a Linguagem R/Cap-04 -MarkDown/estilo.docx
+    reference_docx: /home/luciano/Documentos/Treinamentos-Ciencias_Dados/Utilizando a Linguagem R/Cap-04 -MarkDown/estilo.docx
     toc: yes
     toc_depth: 3
 ---
